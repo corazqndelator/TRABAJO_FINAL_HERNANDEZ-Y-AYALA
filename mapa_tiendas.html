@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0ee9eada4bc1aab72e7bce01b7455286 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0ee9eada4bc1aab72e7bce01b7455286" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0ee9eada4bc1aab72e7bce01b7455286 = L.map(
+                "map_0ee9eada4bc1aab72e7bce01b7455286",
+                {
+                    center: [-12.07, -77.04],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6c586f97e605363ed3b00145a3e4e05a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6c586f97e605363ed3b00145a3e4e05a.addTo(map_0ee9eada4bc1aab72e7bce01b7455286);
+        
+    
+            var marker_75a5bb7d735dc0de593b96ce13828859 = L.marker(
+                [-12.081490439255656, -77.03623236441807],
+                {
+}
+            ).addTo(map_0ee9eada4bc1aab72e7bce01b7455286);
+        
+    
+            var icon_d57a8b28a281b846aaea1ff8964d7d1c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d9c8eaca25fc84e18adc314e0c717e50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66c7de0bccec3dcae6e6495342842024 = $(`<div id="html_66c7de0bccec3dcae6e6495342842024" style="width: 100.0%; height: 100.0%;">Toy D Coleccion Juguetes y Figuras Lima Perú</div>`)[0];
+                popup_d9c8eaca25fc84e18adc314e0c717e50.setContent(html_66c7de0bccec3dcae6e6495342842024);
+            
+        
+
+        marker_75a5bb7d735dc0de593b96ce13828859.bindPopup(popup_d9c8eaca25fc84e18adc314e0c717e50)
+        ;
+
+        
+    
+    
+                marker_75a5bb7d735dc0de593b96ce13828859.setIcon(icon_d57a8b28a281b846aaea1ff8964d7d1c);
+            
+    
+            var marker_77c6cc21caa1c097e0ec4567b5b29804 = L.marker(
+                [-12.081995204377112, -77.03593035092646],
+                {
+}
+            ).addTo(map_0ee9eada4bc1aab72e7bce01b7455286);
+        
+    
+            var icon_689fd5b2d42edae503fbf4cfa9b18342 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f91c5b5de9e1c276d7ceda31cc94364c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_147e0e020b20069b11e9fe91c047981c = $(`<div id="html_147e0e020b20069b11e9fe91c047981c" style="width: 100.0%; height: 100.0%;">Akabane Comics</div>`)[0];
+                popup_f91c5b5de9e1c276d7ceda31cc94364c.setContent(html_147e0e020b20069b11e9fe91c047981c);
+            
+        
+
+        marker_77c6cc21caa1c097e0ec4567b5b29804.bindPopup(popup_f91c5b5de9e1c276d7ceda31cc94364c)
+        ;
+
+        
+    
+    
+                marker_77c6cc21caa1c097e0ec4567b5b29804.setIcon(icon_689fd5b2d42edae503fbf4cfa9b18342);
+            
+    
+            var marker_d188f7264de8c04d264bd32c7951d3d6 = L.marker(
+                [-12.081895, -77.03583],
+                {
+}
+            ).addTo(map_0ee9eada4bc1aab72e7bce01b7455286);
+        
+    
+            var icon_b227cdd64a04742f01b813c6f1e68f5c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_983b087e61b529ac9e25492d9cc79b68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4cd708c2d32dc15dc8467227ec43aa2a = $(`<div id="html_4cd708c2d32dc15dc8467227ec43aa2a" style="width: 100.0%; height: 100.0%;">Factory Comics Store</div>`)[0];
+                popup_983b087e61b529ac9e25492d9cc79b68.setContent(html_4cd708c2d32dc15dc8467227ec43aa2a);
+            
+        
+
+        marker_d188f7264de8c04d264bd32c7951d3d6.bindPopup(popup_983b087e61b529ac9e25492d9cc79b68)
+        ;
+
+        
+    
+    
+                marker_d188f7264de8c04d264bd32c7951d3d6.setIcon(icon_b227cdd64a04742f01b813c6f1e68f5c);
+            
+    
+            var marker_ac8d0d637320f0ad69227647437292be = L.marker(
+                [-12.082095, -77.03593],
+                {
+}
+            ).addTo(map_0ee9eada4bc1aab72e7bce01b7455286);
+        
+    
+            var icon_4e6e8697f731b2ec70cb345dead729cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4c144e8e440986520464030a7f05bb72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7b60bd742ff489b04807a0bc5829c22 = $(`<div id="html_a7b60bd742ff489b04807a0bc5829c22" style="width: 100.0%; height: 100.0%;">The Best Collections</div>`)[0];
+                popup_4c144e8e440986520464030a7f05bb72.setContent(html_a7b60bd742ff489b04807a0bc5829c22);
+            
+        
+
+        marker_ac8d0d637320f0ad69227647437292be.bindPopup(popup_4c144e8e440986520464030a7f05bb72)
+        ;
+
+        
+    
+    
+                marker_ac8d0d637320f0ad69227647437292be.setIcon(icon_4e6e8697f731b2ec70cb345dead729cf);
+            
+    
+            var marker_077776cf1a64ac5c937ec384c71f3cef = L.marker(
+                [-12.081995, -77.03603],
+                {
+}
+            ).addTo(map_0ee9eada4bc1aab72e7bce01b7455286);
+        
+    
+            var icon_742edf97ae55aaffddafe54a1e69d97f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6fcec36757b27d8e79838e91aa248ea9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef3c8c6d2edae313ceaedfda6bef54fb = $(`<div id="html_ef3c8c6d2edae313ceaedfda6bef54fb" style="width: 100.0%; height: 100.0%;">Anime Import Perú</div>`)[0];
+                popup_6fcec36757b27d8e79838e91aa248ea9.setContent(html_ef3c8c6d2edae313ceaedfda6bef54fb);
+            
+        
+
+        marker_077776cf1a64ac5c937ec384c71f3cef.bindPopup(popup_6fcec36757b27d8e79838e91aa248ea9)
+        ;
+
+        
+    
+    
+                marker_077776cf1a64ac5c937ec384c71f3cef.setIcon(icon_742edf97ae55aaffddafe54a1e69d97f);
+            
+    
+            var marker_e133ba042e5443abccb0b40ed2442428 = L.marker(
+                [-12.081995, -77.03573],
+                {
+}
+            ).addTo(map_0ee9eada4bc1aab72e7bce01b7455286);
+        
+    
+            var icon_9a4f0e14963be55ce2b4ae75588a9309 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e0413a64d2b8cfa7d798d9df222365e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c96be1069d2f367f7c934bb0efd228c = $(`<div id="html_4c96be1069d2f367f7c934bb0efd228c" style="width: 100.0%; height: 100.0%;">Pierre Toys</div>`)[0];
+                popup_e0413a64d2b8cfa7d798d9df222365e4.setContent(html_4c96be1069d2f367f7c934bb0efd228c);
+            
+        
+
+        marker_e133ba042e5443abccb0b40ed2442428.bindPopup(popup_e0413a64d2b8cfa7d798d9df222365e4)
+        ;
+
+        
+    
+    
+                marker_e133ba042e5443abccb0b40ed2442428.setIcon(icon_9a4f0e14963be55ce2b4ae75588a9309);
+            
+    
+            var marker_5721062a599bf3ba2d6d49236a36b903 = L.marker(
+                [-12.081695, -77.03593],
+                {
+}
+            ).addTo(map_0ee9eada4bc1aab72e7bce01b7455286);
+        
+    
+            var icon_cba8a3a57120f4b0b30842b2e8080b13 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aa302b1582ad5610c8853ceacf1bc16e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_785ccb1e6da67f48f72ab3ba8b403bc4 = $(`<div id="html_785ccb1e6da67f48f72ab3ba8b403bc4" style="width: 100.0%; height: 100.0%;">S Geek</div>`)[0];
+                popup_aa302b1582ad5610c8853ceacf1bc16e.setContent(html_785ccb1e6da67f48f72ab3ba8b403bc4);
+            
+        
+
+        marker_5721062a599bf3ba2d6d49236a36b903.bindPopup(popup_aa302b1582ad5610c8853ceacf1bc16e)
+        ;
+
+        
+    
+    
+                marker_5721062a599bf3ba2d6d49236a36b903.setIcon(icon_cba8a3a57120f4b0b30842b2e8080b13);
+            
+    
+            var marker_101d4a563377c47bdf7b6d5c6490cebf = L.marker(
+                [-12.05208479919577, -77.03724265092646],
+                {
+}
+            ).addTo(map_0ee9eada4bc1aab72e7bce01b7455286);
+        
+    
+            var icon_c389dbc5544541e182d3ea2a2f35dde8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c3ce785a2bf1c4d77b298aa71e0d2227 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_549b07961d470c4ad9f9e47f62871bd8 = $(`<div id="html_549b07961d470c4ad9f9e47f62871bd8" style="width: 100.0%; height: 100.0%;">Blue Star Comics</div>`)[0];
+                popup_c3ce785a2bf1c4d77b298aa71e0d2227.setContent(html_549b07961d470c4ad9f9e47f62871bd8);
+            
+        
+
+        marker_101d4a563377c47bdf7b6d5c6490cebf.bindPopup(popup_c3ce785a2bf1c4d77b298aa71e0d2227)
+        ;
+
+        
+    
+    
+                marker_101d4a563377c47bdf7b6d5c6490cebf.setIcon(icon_c389dbc5544541e182d3ea2a2f35dde8);
+            
+    
+            var marker_2ff07662227fb84d4d74271848171f48 = L.marker(
+                [-12.054614185617325, -77.03562803558192],
+                {
+}
+            ).addTo(map_0ee9eada4bc1aab72e7bce01b7455286);
+        
+    
+            var icon_c559d3b41789fb4d03aee95f5126b3e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_09f17efe257e5b5051632d437f4665a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95a464f1c10f72c4d5fd3cd0bb7385e1 = $(`<div id="html_95a464f1c10f72c4d5fd3cd0bb7385e1" style="width: 100.0%; height: 100.0%;">RED DE COLECCIONISTAS DEL PERÚ</div>`)[0];
+                popup_09f17efe257e5b5051632d437f4665a8.setContent(html_95a464f1c10f72c4d5fd3cd0bb7385e1);
+            
+        
+
+        marker_2ff07662227fb84d4d74271848171f48.bindPopup(popup_09f17efe257e5b5051632d437f4665a8)
+        ;
+
+        
+    
+    
+                marker_2ff07662227fb84d4d74271848171f48.setIcon(icon_c559d3b41789fb4d03aee95f5126b3e8);
+            
+    
+            var marker_45d172c145e8949c5f7796c69bf16f71 = L.marker(
+                [-12.092269766803009, -77.04849546441807],
+                {
+}
+            ).addTo(map_0ee9eada4bc1aab72e7bce01b7455286);
+        
+    
+            var icon_09a55edca4dca6607c186b1fc486543f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_56921c031fe23d6218fb5c7e7ad415a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa320af9f62d7bf100182eda30e282b2 = $(`<div id="html_aa320af9f62d7bf100182eda30e282b2" style="width: 100.0%; height: 100.0%;">Librería Communitas</div>`)[0];
+                popup_56921c031fe23d6218fb5c7e7ad415a7.setContent(html_aa320af9f62d7bf100182eda30e282b2);
+            
+        
+
+        marker_45d172c145e8949c5f7796c69bf16f71.bindPopup(popup_56921c031fe23d6218fb5c7e7ad415a7)
+        ;
+
+        
+    
+    
+                marker_45d172c145e8949c5f7796c69bf16f71.setIcon(icon_09a55edca4dca6607c186b1fc486543f);
+            
+    
+            var marker_1ebd27f0aa00d62745d636bd1a09b16b = L.marker(
+                [-12.119326271187187, -77.02676784907354],
+                {
+}
+            ).addTo(map_0ee9eada4bc1aab72e7bce01b7455286);
+        
+    
+            var icon_479c8872671e5ff2db7ac8b25273f00e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2d9c366d910b3b1f78e92c956494e0b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad66fb66ca15fcf3f3ecc8564aa1586a = $(`<div id="html_ad66fb66ca15fcf3f3ecc8564aa1586a" style="width: 100.0%; height: 100.0%;">Toy Master</div>`)[0];
+                popup_2d9c366d910b3b1f78e92c956494e0b4.setContent(html_ad66fb66ca15fcf3f3ecc8564aa1586a);
+            
+        
+
+        marker_1ebd27f0aa00d62745d636bd1a09b16b.bindPopup(popup_2d9c366d910b3b1f78e92c956494e0b4)
+        ;
+
+        
+    
+    
+                marker_1ebd27f0aa00d62745d636bd1a09b16b.setIcon(icon_479c8872671e5ff2db7ac8b25273f00e);
+            
+    
+            var marker_6487ee496909345645a697361b956243 = L.marker(
+                [-12.126020634628565, -76.99969832209034],
+                {
+}
+            ).addTo(map_0ee9eada4bc1aab72e7bce01b7455286);
+        
+    
+            var icon_dc824a03c01d29e4a609a12ee8bf7538 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_61db3946aabacfd728be7490b7853084 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9fcabd14de71f2c6eeead52cca00cfd0 = $(`<div id="html_9fcabd14de71f2c6eeead52cca00cfd0" style="width: 100.0%; height: 100.0%;">Game Center</div>`)[0];
+                popup_61db3946aabacfd728be7490b7853084.setContent(html_9fcabd14de71f2c6eeead52cca00cfd0);
+            
+        
+
+        marker_6487ee496909345645a697361b956243.bindPopup(popup_61db3946aabacfd728be7490b7853084)
+        ;
+
+        
+    
+    
+                marker_6487ee496909345645a697361b956243.setIcon(icon_dc824a03c01d29e4a609a12ee8bf7538);
+            
+    
+            var marker_da8257c8031cca5ff723355f4a845122 = L.marker(
+                [-12.075343568345206, -77.08189773743489],
+                {
+}
+            ).addTo(map_0ee9eada4bc1aab72e7bce01b7455286);
+        
+    
+            var icon_ed488bebb7ddcc8361c2b0e970bf2b06 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_10ba6737fe21ba4f02f7a27a06ee99ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbbb0fd91951428c6a01602555f4a8cb = $(`<div id="html_fbbb0fd91951428c6a01602555f4a8cb" style="width: 100.0%; height: 100.0%;">Level 100 Store</div>`)[0];
+                popup_10ba6737fe21ba4f02f7a27a06ee99ce.setContent(html_fbbb0fd91951428c6a01602555f4a8cb);
+            
+        
+
+        marker_da8257c8031cca5ff723355f4a845122.bindPopup(popup_10ba6737fe21ba4f02f7a27a06ee99ce)
+        ;
+
+        
+    
+    
+                marker_da8257c8031cca5ff723355f4a845122.setIcon(icon_ed488bebb7ddcc8361c2b0e970bf2b06);
+            
+    
+            var marker_5667eded3794aeacc24da4353b5d11d6 = L.marker(
+                [-12.113257336444494, -76.9915357797626],
+                {
+}
+            ).addTo(map_0ee9eada4bc1aab72e7bce01b7455286);
+        
+    
+            var icon_b3d17b5dcde8e39108d48f6d9d91feea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4f42b722e1adf489b7a2667207df1bbd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c5fe8af9506af7f3c419a7baada2eb74 = $(`<div id="html_c5fe8af9506af7f3c419a7baada2eb74" style="width: 100.0%; height: 100.0%;">OriginToys</div>`)[0];
+                popup_4f42b722e1adf489b7a2667207df1bbd.setContent(html_c5fe8af9506af7f3c419a7baada2eb74);
+            
+        
+
+        marker_5667eded3794aeacc24da4353b5d11d6.bindPopup(popup_4f42b722e1adf489b7a2667207df1bbd)
+        ;
+
+        
+    
+    
+                marker_5667eded3794aeacc24da4353b5d11d6.setIcon(icon_b3d17b5dcde8e39108d48f6d9d91feea);
+            
+</script>
+</html>
