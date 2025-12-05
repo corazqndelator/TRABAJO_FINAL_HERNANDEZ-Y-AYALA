@@ -4,4 +4,4 @@ primaryColor="#E00000"               # Rojo Spider-Man
 backgroundColor="#7A0E1A"            # Rojo vino
 secondaryBackgroundColor="#0D2C54"   # Azul marino
 textColor="#FFFFFF"                  # Blanco
-font="Komet:https://fonts.adobe.com/fonts/komet
+font= monospace
